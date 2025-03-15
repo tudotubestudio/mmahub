@@ -22,7 +22,9 @@ const nextConfig = {
     parallelServerCompiles: true,
   },
   output: 'export',
-  distDir: 'out'
+  distDir: 'out',
+  basePath: '/mmahub',
+  reactStrictMode: true,
 }
 
 mergeConfig(nextConfig, userConfig)
